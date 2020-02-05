@@ -1,0 +1,452 @@
+
+/* ==========================================================================
+   Miguel Eduardo Chavez Perez
+   ========================================================================== 
+	Patron de Colores a utilizar: http://www.colorcombos.com/color-schemes/404/ColorCombo404.html
+								  http://www.colorcombos.com/color-schemes/249/ColorCombo249.html
+   */
+   /**@import url(https://fonts.googleapis.com/css?family=Pacifico);
+   @import url(https://fonts.googleapis.com/css?family=Cuprum);*//
+a,a:hover{
+	color: white;
+}
+
+.navbar-personalizado{
+	background: white;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.link-personalizado{
+	font-family: 'Pacifico', cursive;
+	color: black;
+	text-shadow: none;
+}
+.link-personalizado:hover{
+	color:white;
+}
+.form-control-personalizado{
+	border-radius: 0;
+	color: black;
+}
+.nav-personalizado>li>a{
+	color: black;
+}
+.nav-personalizado>li>a:hover{
+	background-color: #FF0080;
+	color: black;
+}
+
+.navbar .navbar-nav>.active>a {
+    background-color: #FF0080;
+}
+.btn-personalizado{
+	border-radius:0;
+	background-color:  #FC1CA5;
+}
+.app-bar{
+	background: #FC1CA5;
+}
+.app-principal{
+	background: white;
+	color: #F20075;
+	text-align: center;
+}
+.app-titulo{
+	font-size: 40px;
+}
+.app-desc{
+	font-family: 'Cuprum', sans-serif;
+	font-size: 18px;
+}
+.app-container{
+	margin:10px;
+}
+.app-img-principal{
+	margin-top:10px;
+	overflow: hidden;
+}
+.img-principal{
+	max-width: 200px;
+}
+.app-navegacion{
+	padding-top: 2px;
+	background-color:#FF0080;
+	color: white;
+}
+.app-tit-nav{
+    font-family: 'Cuprum', sans-serif;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+
+.app-top{
+	margin-top:10px;
+	overflow: hidden;
+}
+.app-panel{
+overflow: hidden;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.app-grupo>a{
+background-color:#E3E6EC;
+overflow: hidden;
+color: black;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.app-grupo{
+background-color:#EDF0F6;
+overflow: hidden;
+color: black;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.app-img-centrar{
+	margin-left:auto;
+	margin-right:auto;
+	width: 150px;
+	height: 200px;
+}
+.app-descp{
+	overflow: hidden;
+	background-color:#E3E6EC; 
+	color: #020731;
+	font-size: 15px;
+	padding-top: 10px;
+}
+.app-etiquetas{
+	background-color: #EDF0F6;
+	font-size: 16px;
+	color: #FF0080;
+	padding-top: 8px;
+}
+.label-etiquetas{
+
+}
+.app-centrar{
+	text-align: left;
+	font-size: 15px;
+	color: black;
+}
+.app-preguntar{
+	background-color:#3498bd;
+}
+
+.hover-list-group:hover{
+	color:blue;
+}
+.app-footer{
+	background-color:#FF0080;
+	color:white;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px;
+}
+.app-grupo-et{
+	padding-left: 0;
+	padding-right: 0;
+}
+.app-label{
+	background-color: #E3E6EC;
+	color: black;
+	font-size: 15px;
+	text-align: left;
+}
+.label-etiquetas{
+	background: #FF0080;
+	border-radius: 0;
+}
+.app-figura{
+	overflow: hidden;
+}
+/*---modal--*/
+.center {
+    margin-top:50px;   
+}
+.modal-cuerpo{
+    padding: 10px !important;
+    text-align: justify;
+}
+
+.modal-header {
+	padding-bottom: 5px;
+}
+
+.modal-footer {
+    	padding: 0;
+	}
+.btn-antemodal{
+	background: #FF0080;
+	color: white;
+	font-size: 13px;
+	border-radius: 0;
+	width: 100%;
+	padding-right: 0;
+	padding-left: 0;
+	
+}
+.btn-relleno{
+background: #FF0080;
+}
+.btn-modal{
+	background: #FF0080;
+	color: white;
+	font-size: 15px;
+	border-radius: 0;
+	margin-right: 10px;
+	margin-left: 10px
+}
+
+/*--modal--*/
+.cont-1{
+	background: #F39EEA
+}
+.etiqueta-etiqueta{
+	font-size: 20px;
+    font-family: 'Cuprum', sans-serif;
+	
+}
+.btn-registro{
+	background: #FF0080;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 0;
+    font-family: 'Cuprum', sans-serif;
+
+}
+.descripcion-libro{
+	font-size: 20px;
+	color: black;
+}
+.description{
+	font-size: 20px;
+	color: black;
+}
+.margin-pull{
+	margin-right: 10px;
+}
+.cuadro-sinopsis{
+	text-align: justify;
+	font-size: 17px;
+	color: black;
+}
+/*--------------------------------------------------------------------------*/
+.panel-shadow {
+    box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+.panel-white {
+  border: 1px solid #dddddd;
+}
+.panel-white  .panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.panel-white  .panel-footer {
+  background-color: #fff;
+  border-color: #ddd;
+}
+.post{
+	overflow: hidden;
+}
+.post .post-heading {
+ padding-top: 10px;
+}
+.post .post-heading .avatar {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-right: 15px;
+}
+.post .post-heading .meta .title {
+  margin-bottom: 0;
+}
+.post .post-heading .meta .title a {
+  color: black;
+}
+.post .post-heading .meta .title a:hover {
+  color: #aaaaaa;
+}
+.post .post-heading .meta .time {
+  margin-top: 8px;
+  color: #999;
+}
+.post .post-image .image {
+  width: 100%;
+  height: auto;
+}
+.post .post-description {
+  padding: 15px;
+}
+.post .post-description p {
+  font-size: 14px;
+}
+.post .post-description .stats {
+  margin-top: 20px;
+}
+.post .post-description .stats .stat-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+.post .post-description .stats .stat-item .icon {
+  margin-right: 8px;
+}
+.post .post-footer {
+  border-top: 1px solid #ddd;
+  padding: 15px;
+}
+.post .post-footer .input-group-addon a {
+  color: #454545;
+}
+.post .post-footer .comments-list {
+  padding: 0;
+  margin-top: 20px;
+  list-style-type: none;
+}
+.post .post-footer .comments-list .comment {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
+.post .post-footer .comments-list .comment .avatar {
+  width: 35px;
+  height: 35px;
+}
+.post .post-footer .comments-list .comment .comment-heading {
+  display: block;
+  width: 100%;
+}
+.post .post-footer .comments-list .comment .comment-heading .user {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline;
+  margin-top: 0;
+  margin-right: 10px;
+}
+.post .post-footer .comments-list .comment .comment-heading .time {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 0;
+  display: inline;
+}
+.post .post-footer .comments-list .comment .comment-body {
+  margin-left: 50px;
+}
+.post .post-footer .comments-list .comment > .comments-list {
+  margin-left: 50px;
+}
+.separar{
+	padding-right: 0;
+}
+.comentario{
+	padding:12px;
+}
+.boton-comentar{
+	margin-top: 10px;
+	background: #FF0080;
+	border-radius: 0;
+}
+.boton-comentar:hover{
+	background: #FF0080;
+	color: white;
+}
+/*--Inicia Panel admin-------------------------------------------------------------------------*/
+.app-userActive{
+	width: 100px;
+	height: 20px;
+}
+.app-activado{
+	width: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.app-logo{
+	padding-top: 10px;
+	width: 100px;
+	height: 20px;
+}
+.careta{
+	border-top-color: black; 
+}
+.app-drop-down>li>a:hover{
+background: #FF0080;
+}
+
+/*--Termina Panel admin-------------------------------------------------------------------------*/
+.titulos-admin{
+	font-size: 18px;
+	text-align: center;
+	color: black;
+}
+.titulos-generales{
+	font-size: 18px;
+	text-align: left;
+}
+/*--------------validacion Formulario------------------------------*/
+.input-group-addon.primary {
+    color: white;
+    background-color: green;
+    border-color: #FF0080;
+}
+.input-group-addon.success {
+    color: white;
+    background-color: rgb(92, 184, 92);
+    border-color: #FF0080;
+}
+.input-group-addon.info {
+    color: white;
+    background-color: rgb(57, 179, 215);
+    border-color: #FF0080;
+}
+.input-group-addon.warning {
+    color: white;
+    background-color: rgb(240, 173, 78);
+    border-color: #FF0080;
+}
+.input-group-addon.danger {
+    color: white;
+    background-color: rgb(217, 83, 79);
+    border-color: #FF0080;
+}
+/*             */
+.image-preview-input {
+    position: relative;
+	overflow: hidden;
+	margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+/*-------------------------------------------Tabla------------------*/
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
